@@ -1,0 +1,33 @@
+========================================================================
+           PLANT DISEASE DETECTION DATASET SPLIT REPORT
+========================================================================
+Source Directory:      C:\Users\karan\OneDrive\Desktop\Plant Disease Detection\Plant Disease Detection\PlantVillage
+Target Directory:      C:\Users\karan\OneDrive\Desktop\Plant Disease Detection\Plant Disease Detection\plant-disease-app\ml-service\dataset
+Random Seed:           42
+Split Ratios:          Train: 70% | Valid: 15% | Test: 15%
+Total Source Images:   20638
+Corrupt Skipped:       0
+Duplicates Skipped:    14
+Total Clean Images:    20624
+Train Set Images:      14438
+Valid Set Images:      3095
+Test Set Images:       3091
+------------------------------------------------------------------------
+Class Name                                    | Idx  | Total  | Train  | Valid  | Test  
+------------------------------------------------------------------------
+Pepper__bell___Bacterial_spot                 | 0    | 997    | 698    | 150    | 149   
+Pepper__bell___healthy                        | 1    | 1478   | 1035   | 222    | 221   
+Potato___Early_blight                         | 2    | 1000   | 700    | 150    | 150   
+Potato___Late_blight                          | 3    | 1000   | 700    | 150    | 150   
+Potato___healthy                              | 4    | 152    | 106    | 23     | 23    
+Tomato_Bacterial_spot                         | 5    | 2127   | 1489   | 319    | 319   
+Tomato_Early_blight                           | 6    | 1000   | 700    | 150    | 150   
+Tomato_Late_blight                            | 7    | 1901   | 1331   | 285    | 285   
+Tomato_Leaf_Mold                              | 8    | 952    | 666    | 143    | 143   
+Tomato_Septoria_leaf_spot                     | 9    | 1771   | 1240   | 266    | 265   
+Tomato_Spider_mites_Two_spotted_spider_mite   | 10   | 1676   | 1173   | 251    | 252   
+Tomato__Target_Spot                           | 11   | 1404   | 983    | 211    | 210   
+Tomato__Tomato_YellowLeaf__Curl_Virus         | 12   | 3208   | 2246   | 481    | 481   
+Tomato__Tomato_mosaic_virus                   | 13   | 373    | 261    | 56     | 56    
+Tomato_healthy                                | 14   | 1585   | 1110   | 238    | 237   
+========================================================================

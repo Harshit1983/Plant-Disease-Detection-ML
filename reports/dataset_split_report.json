@@ -1,0 +1,127 @@
+{
+  "source_directory": "C:\\Users\\karan\\OneDrive\\Desktop\\Plant Disease Detection\\Plant Disease Detection\\PlantVillage",
+  "output_directory": "C:\\Users\\karan\\OneDrive\\Desktop\\Plant Disease Detection\\Plant Disease Detection\\plant-disease-app\\ml-service\\dataset",
+  "random_seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "valid": 0.15,
+    "test": 0.15
+  },
+  "max_samples_per_class_limit": 0,
+  "classes": {
+    "Pepper__bell___Bacterial_spot": {
+      "class_index": 0,
+      "total": 997,
+      "train": 698,
+      "valid": 150,
+      "test": 149
+    },
+    "Pepper__bell___healthy": {
+      "class_index": 1,
+      "total": 1478,
+      "train": 1035,
+      "valid": 222,
+      "test": 221
+    },
+    "Potato___Early_blight": {
+      "class_index": 2,
+      "total": 1000,
+      "train": 700,
+      "valid": 150,
+      "test": 150
+    },
+    "Potato___Late_blight": {
+      "class_index": 3,
+      "total": 1000,
+      "train": 700,
+      "valid": 150,
+      "test": 150
+    },
+    "Potato___healthy": {
+      "class_index": 4,
+      "total": 152,
+      "train": 106,
+      "valid": 23,
+      "test": 23
+    },
+    "Tomato_Bacterial_spot": {
+      "class_index": 5,
+      "total": 2127,
+      "train": 1489,
+      "valid": 319,
+      "test": 319
+    },
+    "Tomato_Early_blight": {
+      "class_index": 6,
+      "total": 1000,
+      "train": 700,
+      "valid": 150,
+      "test": 150
+    },
+    "Tomato_Late_blight": {
+      "class_index": 7,
+      "total": 1901,
+      "train": 1331,
+      "valid": 285,
+      "test": 285
+    },
+    "Tomato_Leaf_Mold": {
+      "class_index": 8,
+      "total": 952,
+      "train": 666,
+      "valid": 143,
+      "test": 143
+    },
+    "Tomato_Septoria_leaf_spot": {
+      "class_index": 9,
+      "total": 1771,
+      "train": 1240,
+      "valid": 266,
+      "test": 265
+    },
+    "Tomato_Spider_mites_Two_spotted_spider_mite": {
+      "class_index": 10,
+      "total": 1676,
+      "train": 1173,
+      "valid": 251,
+      "test": 252
+    },
+    "Tomato__Target_Spot": {
+      "class_index": 11,
+      "total": 1404,
+      "train": 983,
+      "valid": 211,
+      "test": 210
+    },
+    "Tomato__Tomato_YellowLeaf__Curl_Virus": {
+      "class_index": 12,
+      "total": 3208,
+      "train": 2246,
+      "valid": 481,
+      "test": 481
+    },
+    "Tomato__Tomato_mosaic_virus": {
+      "class_index": 13,
+      "total": 373,
+      "train": 261,
+      "valid": 56,
+      "test": 56
+    },
+    "Tomato_healthy": {
+      "class_index": 14,
+      "total": 1585,
+      "train": 1110,
+      "valid": 238,
+      "test": 237
+    }
+  },
+  "summary": {
+    "total_source_images": 20638,
+    "total_valid_unique_images": 20624,
+    "total_corrupt_skipped": 0,
+    "total_duplicate_skipped": 14,
+    "train_count": 14438,
+    "valid_count": 3095,
+    "test_count": 3091
+  }
+}

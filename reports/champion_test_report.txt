@@ -1,0 +1,36 @@
+=========================================================================
+        CHAMPION MODEL TEST EVALUATION REPORT (FULL TEST SET)
+=========================================================================
+Model Path:          c:\Users\karan\OneDrive\Desktop\plant ml\ml-service\models\experiments\exp1_augmentation\exp1_augmentation_model.keras
+Total Test Samples:  3091
+Test Accuracy:       80.52%
+Macro Precision:     0.7911
+Macro Recall:        0.8059
+Macro F1-Score:      0.7834
+Weighted F1-Score:   0.8034
+Inference Latency:   24.11 ms/image
+-------------------------------------------------------------------------
+
+                                             precision    recall  f1-score   support
+
+              Pepper__bell___Bacterial_spot       0.72      0.95      0.82       149
+                     Pepper__bell___healthy       0.98      0.92      0.95       221
+                      Potato___Early_blight       0.98      0.83      0.90       150
+                       Potato___Late_blight       0.72      0.85      0.78       150
+                           Potato___healthy       0.56      1.00      0.72        23
+                      Tomato_Bacterial_spot       0.83      0.79      0.81       319
+                        Tomato_Early_blight       0.75      0.41      0.53       150
+                         Tomato_Late_blight       0.91      0.66      0.76       285
+                           Tomato_Leaf_Mold       0.67      0.87      0.76       143
+                  Tomato_Septoria_leaf_spot       0.60      0.87      0.71       265
+Tomato_Spider_mites_Two_spotted_spider_mite       0.75      0.81      0.78       252
+                        Tomato__Target_Spot       0.76      0.52      0.62       210
+      Tomato__Tomato_YellowLeaf__Curl_Virus       0.99      0.90      0.94       481
+                Tomato__Tomato_mosaic_virus       0.84      0.77      0.80        56
+                             Tomato_healthy       0.83      0.94      0.88       237
+
+                                   accuracy                           0.81      3091
+                                  macro avg       0.79      0.81      0.78      3091
+                               weighted avg       0.82      0.81      0.80      3091
+
+=========================================================================

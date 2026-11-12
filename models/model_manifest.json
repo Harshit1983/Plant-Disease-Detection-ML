@@ -1,0 +1,44 @@
+{
+  "selected_model_name": "MobileNetV2 (Fine-Tuned Champion)",
+  "architecture": "mobilenetv2",
+  "model_file": "c:\\Users\\karan\\OneDrive\\Desktop\\plant ml\\ml-service\\models\\best_model\\best_plant_disease_model.keras",
+  "production_active_path": "c:\\Users\\karan\\OneDrive\\Desktop\\plant ml\\ml-service\\models\\plant_disease_model.keras",
+  "target_conv_layer": "out_relu",
+  "preprocessing": "mobilenetv2",
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "normalization_range": [
+    -1.0,
+    1.0
+  ],
+  "metrics": {
+    "test_accuracy": 0.8628,
+    "macro_f1": 0.8516,
+    "macro_precision": 0.8429,
+    "macro_recall": 0.8669,
+    "weighted_f1": 0.863,
+    "avg_latency_ms": 109.39,
+    "model_size_mb": 24.7
+  },
+  "all_classes": [
+    "Pepper__bell___Bacterial_spot",
+    "Pepper__bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato_Bacterial_spot",
+    "Tomato_Early_blight",
+    "Tomato_Late_blight",
+    "Tomato_Leaf_Mold",
+    "Tomato_Septoria_leaf_spot",
+    "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "Tomato__Target_Spot",
+    "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "Tomato__Tomato_mosaic_virus",
+    "Tomato_healthy"
+  ],
+  "selection_rationale": "Fine-tuned MobileNetV2 with top-15 conv layers unfrozen at low learning rate (1e-5) with frozen Batch Normalization. Outperformed baseline champion by +5.76% test accuracy and +6.82% Macro F1 on 3,091 untouched test images, dramatically improving difficult classes including Tomato Early Blight (+14.67% recall), Target Spot (+20.48% recall), and Potato Healthy (+20.57% precision)."
+}

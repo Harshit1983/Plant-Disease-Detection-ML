@@ -1,0 +1,12 @@
+{
+  "model_name": "MobileNetV2 (Fine-Tuned Champion)",
+  "architecture": "MobileNetV2",
+  "test_samples": 3091,
+  "accuracy": 0.8628,
+  "macro_precision": 0.8429,
+  "macro_recall": 0.8669,
+  "macro_f1": 0.8516,
+  "weighted_f1": 0.863,
+  "avg_latency_ms": 109.39,
+  "model_size_mb": 24.7
+}
